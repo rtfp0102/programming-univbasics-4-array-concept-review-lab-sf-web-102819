@@ -24,7 +24,7 @@ def find_min_value(array)
   while counter < array.length do
     element = array[counter]
     
-    if element < min || min == nil
+    if (element < min || min == nil)
       min = element 
     end
     
