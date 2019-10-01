@@ -18,13 +18,13 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = nil
+  min = 0
   counter = 0 
   
   while counter < array.length do
     element = array[counter]
     
-    if (element < min || min == nil)
+    if element < min 
       min = element 
     end
     
